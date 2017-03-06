@@ -37,3 +37,22 @@ h1, h2, h3 {
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
+.navbar-default .navbar-brand {
+    color: #faebd7;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #faebd7
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #faebd7;
+    opacity: 0.75;
+    
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #faebd7;
+    opacity: 0.75;
+}
