@@ -16,7 +16,8 @@
  
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
-
+ @import 'font-awesome-sprockets';
+ @import 'font-awesome';
 
 // Typography Styles 
 h1, h2, h3 {
@@ -42,7 +43,7 @@ h1, h2, h3 {
 .navbar-default .navbar-nav > li > a {
     color: #faebd7;
     &:hover {
-        // this works only in SCSS
+        // this works only in SCSS, text and icons change color & opacity when hovered over
         color: #faebd7;
         opacity: 0.75;
     }
