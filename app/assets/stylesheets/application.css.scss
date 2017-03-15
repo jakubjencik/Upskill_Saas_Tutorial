@@ -60,12 +60,11 @@ h1, h2, h3 {
 
 .navbar-default .navbar-toggle {
     border: 2px solid #faebd7;
+    &:hover, &:focus {
+       background-color: #3f4c6b; 
+    }
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #3f4c6b;
-}
 // Homepage Styles
 .home-callout {
     color: #faebd7;
